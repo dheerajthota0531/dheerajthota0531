@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @dheerajthota0531
 - 👀 I’m interested in Machine Learning,Web Development, Large Language models(LLMs), Fine Tuning.
-- 🌱 I’m currently learning ...
+- 🌱 I’m currently learning MLOPS
 - 💞️ I’m looking to collaborate on Machine learning projects.
 - 📫 Email me dheeraj.thota.0531@gmail.com
 - 😄 Pronouns: He/Him
