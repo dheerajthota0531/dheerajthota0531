@@ -2,7 +2,7 @@
 
 **Backend Engineer → Systems Engineering (Rust)**
 
-2.5 years building and shipping production systems — including two founder stints where I was the only engineer. Built MakeClient (SaaS for CA firms, paying users) makeclient.com and Winqroo (B2C MVP), shipped both, wound both down. Now focused on systems engineering in Rust.
+2.5 years building and shipping production systems — including two founder stints where I was the only engineer. Built MakeClient (SaaS for CA firms, paying users) makeclient.com and Winqroo (B2C MVP), shipped both, wound both down. Now focused on systems engineering in Rust and AI Agents.
 
 Currently deep in distributed backend infrastructure — job queues, concurrent workers, async systems.
 
