@@ -1,118 +1,90 @@
-# 👋 Hey, I'm **Thota Dheeraj**  
-🚀 **Full-Stack Developer | Rust & Solana Developer**
+# Hey, I'm Thota Dheeraj 👋
+
+**Backend Engineer → Systems Engineering (Rust)**
+
+2.5 years building and shipping production systems solo — from first line of code to deployment on AWS/GCP. Currently deep in Rust, building distributed backend infrastructure.
 
 ---
 
-## 🧑‍💻 About Me  
-I’m a **results-driven solo developer** with ~2 years of experience **designing, developing, deploying, and maintaining** production-grade applications — **end-to-end**.  
+## What I'm Building Now
 
-From writing the first line of code to deploying on **AWS, GCP, or DigitalOcean** with **zero downtime**, I handle **everything** — backend, frontend, databases, cloud infrastructure, CI/CD, and monitoring.
-
-⚡ Recently, I’ve been expanding into **high-performance systems and Web3**, building with **Rust and Solana**, focusing on **smart contracts, on-chain programs, and decentralized architectures**.
-
-💡 **What makes me different?**  
-I’ve built **secure, scalable, and high-performance** systems entirely on my own — from traditional full-stack apps to **low-level Rust services and blockchain programs** — applying strong DevOps practices to ensure **99.9% uptime**.
+**Distributed Job Queue in Rust** — Axum, PostgreSQL (`SELECT FOR UPDATE SKIP LOCKED`), Redis atomic rate limiting, SSE, JWT auth. Concurrent worker pool with retry logic and dead letter queue.
+🔗 [Live](https://job-queue-production.up.railway.app) · [GitHub](https://github.com/dheerajthota0531/job-queue)
 
 ---
 
-## 🛠️ Tech Arsenal  
+## Tech
 
-### ⚙️ Systems & Web3  
-![Rust](https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white)
-![Solana](https://img.shields.io/badge/-Solana-14F195?logo=solana&logoColor=black)
-![Web3](https://img.shields.io/badge/-Web3-3C3C3D?logo=web3dotjs&logoColor=white)  
-Rust, Solana (Anchor Framework), Smart Contracts, On-chain Programs, Web3 Architecture, RPC Integration
+**Rust** — Axum, Tokio, SQLx, Serde, async/await, ownership, borrowing, lifetimes, Arc/Mutex, mpsc channels
 
----
+**Backend** — Node.js, Express.js, REST APIs, PostgreSQL, MySQL, Redis
 
-### ☁️ DevOps & Cloud  
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-FF9900?logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/-GCP-4285F4?logo=googlecloud&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/-DigitalOcean-0080FF?logo=digitalocean&logoColor=white)  
-Docker, Kubernetes, Ansible, CI/CD (Jenkins, GitHub Actions, GitLab CI), Nginx, Automation, Monitoring, Logging
+**Cloud & DevOps** — Docker, GitHub Actions, Nginx, Linux, AWS, GCP, DigitalOcean
+
+**Frontend** — React.js, TypeScript, JavaScript
+
+**Other** — Python, FastAPI, pgvector, NLP pipelines
 
 ---
 
-### 🔧 Backend & APIs  
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white)
-![RESTful APIs](https://img.shields.io/badge/-REST-FF6F00?logo=api&logoColor=white)  
-Node.js, Express.js, RESTful APIs, **Rust (Axum, Tokio)**, Clean Code, TDD, Scalable Architectures
+## Projects
+
+### Distributed Job Queue — Rust
+Production-grade distributed job queue. Core pattern: `SELECT FOR UPDATE SKIP LOCKED` for distributed mutual exclusion across concurrent workers — no Kafka, no RabbitMQ. Atomic Redis rate limiting per worker using pipelined INCR + EXPIRE, JWT auth, retry logic, dead letter queue, real-time SSE.
+🔗 [Live](https://job-queue-production.up.railway.app) · [GitHub](https://github.com/dheerajthota0531/job-queue)
 
 ---
 
-### 🎨 Frontend  
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)  
-React.js, TypeScript, JavaScript, HTML5, CSS3, Responsive Design
+### Drift — PostgreSQL Schema Diff CLI — Rust
+Connects to two PostgreSQL databases and produces a side-by-side colored tree diff of their schemas. Recursive diffing algorithm with Added/Removed/Modified/Unchanged status per node. Built during production work at Uzvi Services.
+🔗 [GitHub](https://github.com/dheerajthota0531/drift)
 
 ---
 
-### 🗄️ Databases  
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white)  
-MySQL, MariaDB, Redis, MongoDB, Database Optimization, Schema Design
+### Streaming CLI Chat Agent — Rust
+Terminal chat agent that streams responses token-by-token from a local LLM running on Ollama using `reqwest` byte streaming and async Tokio. No buffering — output appears in real time as the model generates.
+🔗 [GitHub](https://github.com/dheerajthota0531/CLI_CHAT_AGENT)
 
 ---
 
-### 🧰 Scripting & Tools  
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnubash&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)  
-Bash, Shell, Python, Git, GitHub, GitLab, Branching Strategies, Code Reviews
+### Concurrent File Processor — Rust
+Multi-threaded CLI that reads a folder of `.txt` files concurrently, counts word frequencies per file, and outputs results sorted by count. Uses `Arc<Mutex<HashMap>>`, `thread::spawn`, and `join()`.
+🔗 [GitHub](https://github.com/dheerajthota0531/rust_threads)
 
 ---
 
-## 📂 Featured Solo Projects
-
-### ⚡ Solana Payment Program  
-**Role:** Rust & Solana Developer  
-**Tech Stack:** Rust, Solana, Anchor, Web3.js  
-**Impact:**  
-- Built a **decentralized payment program** with on-chain validation  
-- Implemented **PDA-based account management** for secure state handling  
-- Integrated with frontend using **Solana Web3.js + RPC**  
-- Designed for **low fees and high throughput**
+### Task Manager CLI with Writer Thread — Rust
+CLI task manager with persistent JSON storage via a dedicated writer thread pattern. Main thread sends `WriteCommand` variants through `mpsc` channel; writer thread owns all disk writes.
+🔗 [GitHub](https://github.com/dheerajthota0531/Rust-Smart-CLI)
 
 ---
 
-### 🚀 MOEAP Employee Management System  
-**Role:** Solo Full-Stack Developer & DevOps Engineer  
-**Tech Stack:** Node.js, React.js, MySQL, AWS, Kubernetes, Nginx, GitHub Actions  
-**Impact:**  
-- Designed & deployed a secure, role-based access control system  
-- Automated deployments via CI/CD for **zero downtime**  
-- Achieved **99.9% uptime** in production  
+### Expense Tracker CLI — Rust
+CSV-backed expense tracker with income/expense categorisation, financial summary, and deficit/surplus status. Uses `serde`, custom enums with derive macros, and pattern matching.
+🔗 [GitHub](https://github.com/dheerajthota0531/expense-tracker-cli)
 
 ---
 
-### 🛒 E-commerce Platform Migration  
-**Role:** Solo Full-Stack Developer & DevOps Engineer  
-**Tech Stack:** Node.js, React.js, MySQL, AWS, GCP, Docker, Kubernetes  
-**Impact:**  
-- Migrated legacy PHP backend to Node.js with React frontend  
-- Database optimizations improved performance by **40%**  
-- DevOps automation reduced deployment time by **35%**  
+### MakeClient — Practice Management SaaS
+Built and deployed a SaaS for CA firms solo — REST APIs, RBAC, billing workflows, document management. Node.js, React, MySQL, Docker, AWS. Ran in production with paying users.
 
 ---
 
-### 🤖 RAG Chatbot  
-**Role:** ML & Full-Stack Engineer  
-**Tech Stack:** Python, Node.js, scikit-learn, AWS, Kubernetes, GitLab CI  
-**Impact:**  
-- Built an AI-powered chatbot integrating RAG methodology  
-- Improved response accuracy by **40%** and engagement by **25%**
+### MOEAP Employee Management System — Live
+Government employee management system for the Ministry of Energy, Andhra Pradesh. RBAC, grievance workflows, internal admin tools. Built and deployed solo in under 3 weeks. Still running.
+🔗 [moeap.com](https://moeap.com)
 
 ---
 
+## Publications
 
+- *A Comprehensive Review of Deepfake Detection Using Deep Learning Techniques* — ETJ, Apr 2025
+- *A Conversational Chat Interface with Specific Trained Data* — Jun 2024
 
-## 📫 Let’s Connect  
-[![Email](https://img.shields.io/badge/Email-dheeraj.thota.0531%40gmail.com-red?logo=gmail)](mailto:dheeraj.thota0531@gmail.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-thotadheeraj-blue?logo=linkedin)](https://linkedin.com/in/thotadheeraj)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-dheerajthota0531.github.io-0A66C2?logo=vercel&logoColor=white)](https://dheerajthota0531.github.io)  
-[![GitHub](https://img.shields.io/badge/GitHub-dheerajthota0531-black?logo=github)](https://github.com/dheerajthota0531)
+---
+
+## Connect
+
+[![Email](https://img.shields.io/badge/Email-dheeraj.thota.0531%40gmail.com-red?logo=gmail)](mailto:dheeraj.thota.0531@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-thotadheeraj-blue?logo=linkedin)](https://linkedin.com/in/thotadheeraj)
+[![Portfolio](https://img.shields.io/badge/Portfolio-dheerajthota0531.github.io-0A66C2)](https://dheerajthota0531.github.io)
