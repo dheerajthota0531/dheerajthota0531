@@ -2,9 +2,9 @@
 
 **Backend Engineer → Systems Engineering (Rust)**
 
-2.5 years building and shipping production systems solo — from first line of code to deployment on AWS/GCP. Currently deep in Rust, building distributed backend infrastructure.
+2.5 years building and shipping production systems — including two founder stints where I was the only engineer. Built MakeClient (SaaS for CA firms, paying users) makeclient.com and Winqroo (B2C MVP), shipped both, wound both down. Now focused on systems engineering in Rust.
 
----
+Currently deep in distributed backend infrastructure — job queues, concurrent workers, async systems.
 
 ## What I'm Building Now
 
