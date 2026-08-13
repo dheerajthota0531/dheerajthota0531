@@ -112,8 +112,5 @@ Designed and deployed a government employee management platform for the Ministry
 ---
 
 ## 🤝 Let's Connect
-* ***dheeraj.thota.0531@gmail.com
-* ***https://www.linkedin.com/in/thotadheeraj
-
-* Open Source
-
+* dheeraj.thota.0531@gmail.com
+* https://www.linkedin.com/in/thotadheeraj
