@@ -1,79 +1,98 @@
 # Hey, I'm Thota Dheeraj 👋
 
-**Forward Deployed Engineer • AI Infrastructure • Voice AI • Rust Systems**
+**Forward Deployed Engineer @ AInterviews • Backend Engineer • AI Infrastructure • Voice AI**
 
-I'm a **Forward Deployed Engineer at AInterviews**, where I work directly with customers to build, customize, and deploy AI-powered hiring solutions. I bridge product, engineering, and customer needs by shipping production features, integrating enterprise systems, and delivering scalable AI workflows.
+I'm a **Forward Deployed Engineer at AInterviews**, where I build and deploy AI-powered hiring solutions for enterprise customers. I work across backend engineering, AI infrastructure, Voice AI, enterprise integrations, and customer deployments—shipping production systems that solve real business problems.
 
-Previously, I built and shipped production products as a solo engineer and startup founder, taking products from idea to production. Today my focus is building **AI infrastructure**, **Voice AI systems**, **distributed backend systems**, and **high-performance software in Rust**.
+## Over the past **2.5+ years**, I've built SaaS products with paying customers, AI-powered applications, and distributed backend systems. Before joining AInterviews, I founded **MakeClient**, a SaaS platform for Chartered Accountant firms, and later co-founded **Winqroo**, an AI-powered creator platform.
 
----
+# 💼 Experience
 
-## 🚀 Current Focus
+## Forward Deployed Engineer — AInterviews *(Present)*
 
-* 🤖 AI Agents
-* 🎙️ Voice AI
-* 🦀 Systems Programming with Rust
-* ⚡ Distributed Backend Infrastructure
-* ☁️ Production AI Systems
+Building AI-powered hiring infrastructure for enterprise customers.
 
----
-
-## 💼 Current Role
-
-### Forward Deployed Engineer — AInterviews
-
-Working closely with enterprise customers to design, build, and deploy AI-powered hiring infrastructure.
-
-My work includes:
-
-* Building customer-specific AI solutions
-* Deploying and integrating enterprise AI systems
-* Developing backend services and APIs
-* Voice AI & conversational workflows
-* AI interview orchestration
-* Product integrations and automation
-* Shipping production features with rapid customer feedback
+* AI Interview Platforms
+* Voice AI Workflows
+* Backend APIs & Infrastructure
+* Enterprise Integrations
+* Production Deployments
+* Customer-facing Engineering
 
 ---
 
-## 🚀 Featured Project
+## Founder & Backend Engineer — MakeClient (https://makeclient.com)
 
-### Distributed Job Queue (Rust)
+Built a SaaS platform for Chartered Accountant firms from the ground up.
 
-Production-grade distributed job queue featuring:
+* Built the complete backend architecture
+* Designed REST APIs, RBAC, authentication & billing
+* Managed Docker, AWS, Redis & CI/CD deployments
+* Scaled the platform to paying customers
+* Led product development from idea to production
 
-* Axum
-* PostgreSQL (`SELECT FOR UPDATE SKIP LOCKED`)
-* Redis Atomic Rate Limiting
+---
+
+## Co-Founder — Winqroo (https://winfront.vercel.app)
+
+Built an AI-powered creator platform focused on creator identity, analytics, and AI-assisted growth.
+
+* Full-stack Development
+* Backend Architecture
+* Real-time Systems
+* Search Infrastructure
+* Cloud Deployments
+* Product Development
+
+---
+
+## Backend Engineer — Uzvi Services
+
+Built production software for enterprise organizations.
+
+* Enterprise Backend APIs
+* Production E-commerce Migration
+* Internal Business Platforms
+
+---
+
+# 🚀 Featured Project
+
+## Distributed Job Queue (Rust)
+
+Production-grade distributed job queue built using **Axum**, **Tokio**, **PostgreSQL**, and **Redis**.
+
+### Features
+
+* `SELECT FOR UPDATE SKIP LOCKED`
 * Concurrent Worker Pool
+* Redis Atomic Rate Limiting
 * Retry Logic
 * Dead Letter Queue
 * JWT Authentication
 * Server-Sent Events (SSE)
 
-🔗 **Live:** https://job-queue-production.up.railway.app
+🔗 **Live**
+https://job-queue-production.up.railway.app
 
-🔗 **GitHub:** https://github.com/dheerajthota0531/job-queue
+🔗 **GitHub**
+https://github.com/dheerajthota0531/job-queue
 
 ---
 
-## 🛠 Tech Stack
-
-### Rust
-
-Axum • Tokio • SQLx • Serde • Async/Await • Concurrency • Arc/Mutex • mpsc • PostgreSQL • Redis
-
-### AI & Voice AI
-
-AI Agents • Voice AI • Python • LLM Integrations • NLP • pgvector
+# 🛠 Tech Stack
 
 ### Backend
 
-Node.js • Express.js • FastAPI • REST APIs • PostgreSQL • MySQL • Redis
+Rust • Node.js • Express.js • FastAPI • PostgreSQL • MySQL • Redis
+
+### AI
+
+Voice AI • AI Agents • Python • LLM Integrations • NLP • pgvector
 
 ### Cloud & DevOps
 
-Docker • GitHub Actions • Linux • Nginx • AWS • GCP • DigitalOcean
+Docker • GitHub Actions • Linux • AWS • GCP • DigitalOcean • Nginx
 
 ### Frontend
 
@@ -81,36 +100,28 @@ React • TypeScript • JavaScript
 
 ---
 
-## 📌 Featured Projects
+# 📌 Featured Work
 
-* **Distributed Job Queue (Rust)** — Distributed worker system with PostgreSQL and Redis.
-* **Drift** — PostgreSQL schema diff CLI built in Rust.
-* **Streaming CLI Chat Agent** — Real-time LLM streaming client.
-* **Concurrent File Processor** — Multi-threaded Rust application.
-* **Task Manager CLI** — Dedicated writer-thread architecture using `mpsc`.
-* **Expense Tracker CLI** — CSV-backed financial tracker.
+* 🚀 **Distributed Job Queue** — Production-grade distributed backend built in Rust.
+* 💼 **MakeClient** — SaaS platform for Chartered Accountant firms with paying customers.
+* 🤖 **Winqroo** — AI-powered creator platform.
+* 🌳 **Drift** — PostgreSQL Schema Diff CLI built in Rust.
 
 ---
 
-## 🏗 Previous Products
-
-### MakeClient
-
-Built and launched a SaaS platform for CA firms as the sole engineer.
-
-### MOEAP Employee Management System
-
-Designed and deployed a government employee management platform for the Ministry of Energy, Andhra Pradesh.
-
----
-
-## 📚 Publications
+# 📚 Publications
 
 * **A Comprehensive Review of Deepfake Detection Using Deep Learning Techniques** (2025)
 * **A Conversational Chat Interface with Specific Trained Data** (2024)
 
 ---
 
-## 🤝 Let's Connect
-* dheeraj.thota.0531@gmail.com
-* https://www.linkedin.com/in/thotadheeraj
+# 🤝 Connect
+
+📧 **[dheeraj.thota.0531@gmail.com](mailto:dheeraj.thota.0531@gmail.com)**
+
+💼 **LinkedIn**
+https://linkedin.com/in/thotadheeraj
+
+🌐 **GitHub**
+https://github.com/dheerajthota0531
